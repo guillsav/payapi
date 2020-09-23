@@ -686,7 +686,7 @@ header .header {
   font-family: "DM Serif Display", serif;
   color: #36536b;
   line-height: 7.2rem;
-  margin: 0.8rem !important;
+  margin-top: 0.8rem !important;
   padding: 0 !important;
 }
 .prices .price .features-and-cta {
