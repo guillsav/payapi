@@ -1,0 +1,784 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: "Public Sans", sans-serif;
+  background-color: #edf3f8;
+  color: #1b262f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0;
+}
+.p-btn {
+  width: 17.3rem;
+  height: 4.8rem;
+  font-size: 1.5rem;
+  color: #fbfcfe;
+  font-weight: 700;
+  background-color: #ba4270;
+  border-radius: 2.4rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  -moz-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.p-btn:hover,
+.p-btn:focus {
+  background-color: #da6d97;
+}
+.p-btn:disabled {
+  opacity: 0.5;
+}
+.p-btn-no-shadow {
+  width: 17.3rem;
+  height: 4.8rem;
+  font-size: 1.5rem;
+  color: #fbfcfe;
+  font-weight: 700;
+  background-color: #ba4270;
+  border-radius: 2.4rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+.p-btn-no-shadow:hover,
+.p-btn-no-shadow:focus {
+  background-color: #da6d97;
+}
+.p-btn-no-shadow:disabled {
+  opacity: 0.5;
+}
+nav {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 7rem;
+}
+nav .schedule {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+nav .nav-wrapper {
+  width: 43.2rem;
+  height: 3.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+nav .nav-wrapper .navigation {
+  width: 23.3rem;
+  height: 2.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-wrapper .navigation .nav-link {
+  font-size: 1.5rem;
+  color: #36536b;
+  opacity: 0.7;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+nav .nav-wrapper .navigation .nav-link:hover {
+  opacity: 1;
+}
+.start {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.start h2 {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+}
+.start .s-leads {
+  width: 44.5rem;
+  height: 4.8rem;
+  background-color: #fbfcfe;
+  border: none;
+  border-radius: 2.4rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-left: 2.7rem;
+  -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  -moz-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.start .s-leads .s-leads-input {
+  border: none;
+  background: none;
+  color: #36536b;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+.start .s-leads .s-leads-input::placeholder {
+  color: #36536b;
+  opacity: 0.5;
+}
+.start .s-leads .s-leads-input:focus {
+  outline: none;
+}
+#__payapi-footer {
+  height: 10rem;
+  background-color: #1b262f;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 1050px -150px;
+}
+#__payapi-footer nav {
+  margin: 0;
+  padding: 0;
+}
+#__payapi-footer nav .footer-wrapper {
+  width: 1110px;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#__payapi-footer nav .footer-wrapper .nav-wrapper .logo img {
+  fill: #fff;
+}
+#__payapi-footer nav .footer-wrapper .nav-wrapper .navigation .footer-nav-link {
+  font-size: 1.5rem;
+  color: #fbfcfe;
+  opacity: 0.7;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+#__payapi-footer nav .footer-wrapper .nav-wrapper .navigation .footer-nav-link:hover {
+  opacity: 1;
+}
+#__payapi-footer .footer-wrapper .social-media {
+  width: 12rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#__payapi-footer .footer-wrapper .social-media .facebook {
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url("/assets/shared/desktop/facebook.svg") no-repeat center / cover;
+  transition: all 0.3s ease-in-out;
+}
+#__payapi-footer .footer-wrapper .social-media .facebook:hover {
+  background: url("/assets/shared/desktop/facebook-hover.svg") no-repeat center / cover;
+}
+#__payapi-footer .footer-wrapper .social-media .twitter {
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url("/assets/shared/desktop/twitter.svg") no-repeat center / cover;
+  transition: all 0.3s ease-in-out;
+}
+#__payapi-footer .footer-wrapper .social-media .twitter:hover {
+  background: url("/assets/shared/desktop/twitter-hover.svg") no-repeat center / cover;
+}
+#__payapi-footer .footer-wrapper .social-media .linkedin {
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url("/assets/shared/desktop/linkedin.svg") no-repeat center / cover;
+  transition: all 0.3s ease-in-out;
+}
+#__payapi-footer .footer-wrapper .social-media .linkedin:hover {
+  background: url("/assets/shared/desktop/linkedin-hover.svg") no-repeat center / cover;
+}
+#__payapi-home-header {
+  width: 100%;
+  height: 73.7rem;
+  padding-top: 4rem;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 800px -172px;
+}
+header .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-header .billboard {
+  width: 100%;
+  height: 73.7rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+.home-header .billboard .b-left {
+  width: 54.6rem;
+  height: 34.5rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  align-self: start;
+  font-size: 1.5rem;
+  margin-top: 8rem;
+}
+.billboard .b-left .billboard-header {
+  width: 100%;
+  height: 24.3rem;
+  margin-bottom: 2.1rem;
+  font-size: 7.2rem;
+  line-height: 7.2rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+}
+.billboard .b-left .leads {
+  width: 44.5rem;
+  height: 4.8rem;
+  background-color: #fbfcfe;
+  border: none;
+  border-radius: 2.4rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-left: 2.7rem;
+  -webkit-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  -moz-box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  margin-bottom: 1.6rem;
+}
+.billboard .b-left .leads .leads-input {
+  border: none;
+  background: none;
+  color: #36536b;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 0.3s ease-in-out;
+}
+.billboard .b-left .leads .leads-input::placeholder {
+  color: #36536b;
+  opacity: 0.5;
+}
+.billboard .b-left .leads .leads-input:focus {
+  outline: none;
+}
+.b-left .get-in-touch {
+  font-weight: 400;
+  color: #6c8294;
+  margin-left: 2.7rem;
+}
+.b-left .get-in-touch span a {
+  font-weight: 800;
+  text-decoration: underline solid #36536b 2px;
+  color: #6c8294;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+.b-left .get-in-touch span a:hover {
+  color: #36536b;
+}
+.home-header .billboard .b-right {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  padding-right: 9.5rem;
+}
+#__payapi-who-we-work-with {
+  width: 100%;
+  height: 47.2rem;
+  background-color: #1b262f;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: -235px -345px;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.www-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.www-content .www-left {
+  width: 44.5rem;
+  height: 27.2rem;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  align-items: flex-start;
+}
+.www-content .www-left .www-header {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+  color: #fbfcfe;
+  margin-bottom: 3.8rem;
+}
+.www-content .www-left .www-desc {
+  font-size: 1.5rem;
+  color: #fbfcfe;
+  line-height: 2.8rem;
+  font-weight: 500;
+  opacity: 0.7;
+  margin-bottom: 3.2rem;
+}
+.www-content .www-left a {
+  text-decoration: none;
+  width: 12.9rem;
+  height: 4.8rem;
+  border-radius: 2.4rem;
+  color: #fbfcfe;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background: none;
+  border: 1px solid #fbfcfe;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.www-content .www-left a:hover,
+.www-content .www-left a:focus {
+  background-color: #fbfcfe;
+  color: #1b262f;
+}
+.www-content .www-left a:disabled {
+  opacity: 0.5;
+}
+.www-content .partners {
+  width: 53.6rem;
+  height: 13rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+#__payapi-features {
+  width: 100%;
+  height: 182.9rem;
+  display: grid;
+  grid-template-rows: 3fr 4fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15rem;
+  padding-bottom: 9.6rem;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 1050px 400px;
+}
+#__payapi-features .implement {
+  width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 15rem;
+}
+#__payapi-features .implement .i-terminal {
+  width: 44.5rem;
+  height: 28.4rem;
+  margin-right: 12.5rem;
+}
+.implement .i-terminal .easy-img {
+  -webkit-box-shadow: 25px 25px 80px 0 rgba(54, 83, 107, 0.3);
+  -moz-box-shadow: 25px 25px 80px 0 rgba(54, 83, 107, 0.3);
+  box-shadow: 25px 25px 80px 0 rgba(54, 83, 107, 0.3);
+}
+#__payapi-features .implement .i-content {
+  width: 44.5rem;
+  height: 16.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+}
+#__payapi-features .implement .i-content h2 {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+  margin-bottom: 2.4rem;
+}
+#__payapi-features .implement .i-content p {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  color: #36536b;
+}
+#__payapi-features .simple-ui-ux {
+  width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+#__payapi-features .simple-ui-ux .s-content {
+  width: 44.5rem;
+  height: 13.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+}
+#__payapi-features .simple-ui-ux .s-content h2 {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+  margin-bottom: 2.4rem;
+}
+#__payapi-features .simple-ui-ux .s-content p {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  color: #36536b;
+}
+#__payapi-features .more {
+  width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  margin-bottom: 9.6rem;
+}
+#__payapi-features .more .m-features {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+#__payapi-features .more .m-features h3 {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 500;
+  color: #36536b;
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+#__payapi-features .more .m-features p {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  color: #6c8294;
+  font-weight: 500;
+}
+#__payapi-pricing {
+  width: 100%;
+  padding-top: 4rem;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 800px -527px;
+}
+header .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#__payapi-pricing .content {
+  width: 100%;
+  height: auto;
+  margin-bottom: 9.6rem;
+}
+#__payapi-pricing .content h1 {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+  margin-top: 8.2rem;
+  margin-bottom: 7.2rem;
+}
+#__payapi-pricing .content .prices {
+  width: 100%;
+  height: 58.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  align-items: flex-start;
+  margin-bottom: 9.6rem !important;
+}
+.content .prices .price {
+  width: 100%;
+  height: 58.2rem;
+  display: grid;
+  grid-template-rows: 2fr 4fr;
+}
+.content .prices .price .plan {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2.4rem;
+}
+.prices .price .plan h3 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+  color: #ba4270;
+  margin-bottom: 1.6rem;
+}
+.prices .price .plan p {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  font-family: "Public Sans", sans-serif;
+  color: #1b262f;
+  color: #36536b !important;
+  opacity: 0.7 !important;
+  font-weight: 500 !important;
+}
+.prices .price .plan h2 {
+  font-size: 5.6rem;
+  line-height: 5.6rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+  line-height: 7.2rem;
+  margin: 0.8rem !important;
+  padding: 0 !important;
+}
+.prices .price .features-and-cta {
+  width: 100%;
+  height: 36.6rem;
+  display: grid;
+  grid-template-rows: 4fr 4.8rem;
+  row-gap: 2.4rem;
+}
+.prices .price .features-and-cta .plan-features {
+  width: 100%;
+  height: 29.4rem;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  row-gap: 0.8rem;
+  border-top: 1px solid rgba(54, 83, 107, 0.25);
+  border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+}
+.price .features-and-cta .plan-features li .p-feature {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.price .features-and-cta .plan-features li img {
+  width: 1.4rem;
+  height: 1.1rem;
+  margin-right: 2.4rem;
+}
+.price .features-and-cta .plan-features li p {
+  color: #36536b;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  opacity: 0.5;
+  margin-left: 3.6rem;
+}
+.price .features-and-cta .plan-features li .active {
+  color: #36536b;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  opacity: 1;
+  margin-left: 0;
+}
+.price .features-and-cta .request-access {
+  width: 15.2rem;
+  height: 4.8rem;
+  border-radius: 2.4rem;
+  background: none;
+  color: #36536b;
+  font-weight: 800;
+  border: 1px solid #36536b;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  cursor: pointer;
+  width: 16.8rem !important;
+  height: 100% !important;
+  align-self: end;
+}
+.price .features-and-cta .request-access:hover,
+.price .features-and-cta .request-access:focus {
+  background-color: #36536b;
+  color: #fbfcfe;
+}
+.price .features-and-cta .request-access:disabled {
+  opacity: 0.5;
+}
+.content .m-wide {
+  margin-bottom: 9.6rem;
+}
+#__payapi-about-header {
+  width: 100%;
+  height: 73.7rem;
+  padding-top: 4rem;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 800px -527px;
+}
+header .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.about-header .billboard {
+  width: 100%;
+  height: 73.7rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}

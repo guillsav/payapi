@@ -1,0 +1,250 @@
+// Header
+#__payapi-home-header {
+  width: 100%;
+  height: 73.7rem;
+  padding-top: 4rem;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 800px -172px;
+}
+
+header .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.home-header .billboard {
+  width: 100%;
+  height: 73.7rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.home-header .billboard .b-left {
+  width: 54.6rem;
+  height: 34.5rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  align-self: start;
+  font-size: 1.5rem;
+  margin-top: 8rem;
+}
+
+.billboard .b-left .billboard-header {
+  width: 100%;
+  height: 24.3rem;
+  margin-bottom: 2.1rem;
+  .h1-large();
+}
+
+.billboard .b-left .leads {
+  .p-leads();
+  margin-bottom: 1.6rem;
+}
+
+.billboard .b-left .leads .leads-input {
+  .p-leads-input();
+}
+
+.b-left .get-in-touch {
+  font-weight: 400;
+  color: @light-san-juan-blue;
+  margin-left: 2.7rem;
+}
+
+.b-left .get-in-touch span a {
+  font-weight: 800;
+  text-decoration: underline solid @san-juan-blue 2px;
+  color: @light-san-juan-blue;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: @san-juan-blue;
+  }
+}
+
+.home-header .billboard .b-right {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+  padding-right: 9.5rem;
+}
+
+// Who we work with
+#__payapi-who-we-work-with {
+  width: 100%;
+  height: 47.2rem;
+  background-color: @mirage-blue;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: -235px -345px;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.www-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.www-content .www-left {
+  width: 44.5rem;
+  height: 27.2rem;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  align-items: flex-start;
+}
+
+.www-content .www-left .www-header {
+  .h2();
+  color: @link-water-white;
+  margin-bottom: 3.8rem;
+}
+
+.www-content .www-left .www-desc {
+  font-size: @body;
+  color: @link-water-white;
+  line-height: 2.8rem;
+  font-weight: 500;
+  opacity: 0.7;
+  margin-bottom: 3.2rem;
+}
+
+.www-content .www-left a {
+  color: @link-water-white;
+  text-decoration: none;
+  .btn-about();
+}
+
+.www-content .partners {
+  width: 53.6rem;
+  height: 13rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// Features
+#__payapi-features {
+  width: 100%;
+  height: 182.9rem;
+  display: grid;
+  grid-template-rows: 3fr 4fr 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15rem;
+  padding-bottom: 9.6rem;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 1050px 400px;
+}
+
+#__payapi-features .implement {
+  width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 15rem;
+}
+
+#__payapi-features .implement .i-terminal {
+  width: 44.5rem;
+  height: 28.4rem;
+  margin-right: 12.5rem;
+}
+
+.implement .i-terminal .easy-img {
+  -webkit-box-shadow: 25px 25px 80px 0 rgba(54, 83, 107, 0.3);
+  -moz-box-shadow: 25px 25px 80px 0 rgba(54, 83, 107, 0.3);
+  box-shadow: 25px 25px 80px 0 rgba(54, 83, 107, 0.3);
+}
+
+#__payapi-features .implement .i-content {
+  width: 44.5rem;
+  height: 16.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+}
+
+#__payapi-features .implement .i-content h2 {
+  .h2();
+  margin-bottom: 2.4rem;
+}
+
+#__payapi-features .implement .i-content p {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  color: @san-juan-blue;
+}
+
+#__payapi-features .simple-ui-ux {
+  width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+
+#__payapi-features .simple-ui-ux .s-content {
+  width: 44.5rem;
+  height: 13.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+}
+
+#__payapi-features .simple-ui-ux .s-content h2 {
+  .h2();
+  margin-bottom: 2.4rem;
+}
+
+#__payapi-features .simple-ui-ux .s-content p {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  color: @san-juan-blue;
+}
+
+#__payapi-features .more {
+  width: 1110px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  margin-bottom: 9.6rem;
+}
+
+#__payapi-features .more .m-features {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#__payapi-features .more .m-features h3 {
+  .h3-small();
+  margin-top: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+#__payapi-features .more .m-features p {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  color: @light-san-juan-blue;
+  font-weight: 500;
+}

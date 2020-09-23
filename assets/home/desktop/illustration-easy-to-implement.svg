@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="445px" height="284px" viewBox="0 0 445 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="445" height="284" rx="8"></rect>
+        <filter x="-24.2%" y="-37.9%" width="159.6%" height="193.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="25" dy="25" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="40" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.212302148   0 0 0 0 0.325209598   0 0 0 0 0.419299139  0 0 0 0.300726617 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Home" transform="translate(-165.000000, -1359.000000)">
+            <g id="Group-15" transform="translate(165.000000, 1359.000000)">
+                <g id="Group-14">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#1B262F" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-13">
+                        <g id="Group-11">
+                            <path d="M8,0 L437,0 C441.418278,-8.11624501e-16 445,3.581722 445,8 L445,40 L0,40 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="Rectangle-Copy" fill="#2E3F4D"></path>
+                            <g id="Group-10" transform="translate(16.000000, 12.000000)">
+                                <circle id="Oval" fill="#BA4270" cx="8" cy="8" r="8"></circle>
+                                <circle id="Oval-Copy" fill="#527695" cx="30.4" cy="8" r="8"></circle>
+                                <circle id="Oval-Copy-2" fill="#36536B" cx="52.8" cy="8" r="8"></circle>
+                            </g>
+                        </g>
+                        <text id="&lt;form-id=&quot;form-id&quot;-m" font-family="Helvetica" font-size="13" font-weight="normal" line-spacing="20" fill="#FBFCFE">
+                            <tspan x="32" y="85">&lt;form id="form-id" method="GET"&gt; &lt;/form&gt;</tspan>
+                            <tspan x="32" y="105">&lt;script</tspan>
+                            <tspan x="32" y="125">  src="https://loremipsum.com/api.js"</tspan>
+                            <tspan x="32" y="145">  data-client-name="Your Company's Name"</tspan>
+                            <tspan x="32" y="165">  data-form-id="form-id"</tspan>
+                            <tspan x="32" y="185">  data-key="test_key"</tspan>
+                            <tspan x="32" y="205">  data-product="transactions"</tspan>
+                            <tspan x="32" y="225">  data-env="sandbox"&gt;</tspan>
+                            <tspan x="32" y="245">&lt;/script&gt;</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

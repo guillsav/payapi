@@ -1,0 +1,138 @@
+// Header
+#__payapi-pricing {
+  width: 100%;
+  padding-top: 4rem;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 800px -527px;
+}
+
+header .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+// Content
+#__payapi-pricing .content {
+  width: 100%;
+  height: auto;
+  margin-bottom: 9.6rem;
+}
+
+#__payapi-pricing .content h1 {
+  .h2();
+  margin-top: 8.2rem;
+  margin-bottom: 7.2rem;
+}
+
+#__payapi-pricing .content .prices {
+  width: 100%;
+  height: 58.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  align-items: flex-start;
+  margin-bottom: 9.6rem !important;
+}
+
+.content .prices .price {
+  width: 100%;
+  height: 58.2rem;
+  display: grid;
+  grid-template-rows: 2fr 4fr;
+}
+
+.content .prices .price .plan {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 2.4rem;
+}
+
+.prices .price .plan h3 {
+  .h3-big();
+  color: @dark-pink;
+  margin-bottom: 1.6rem;
+}
+
+.prices .price .plan p {
+  .body-copy();
+  color: @san-juan-blue !important;
+  opacity: 0.7 !important;
+  font-weight: 500 !important;
+}
+
+.prices .price .plan h2 {
+  .h1-small();
+  line-height: @heading1-large;
+  margin: 0.8rem !important;
+  padding: 0 !important;
+}
+
+.prices .price .features-and-cta {
+  width: 100%;
+  height: 36.6rem;
+  display: grid;
+  grid-template-rows: 4fr 4.8rem;
+  row-gap: 2.4rem;
+}
+
+.prices .price .features-and-cta .plan-features {
+  width: 100%;
+  height: 29.4rem;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  row-gap: 0.8rem;
+  border-top: @light-border;
+  border-bottom: @light-border;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+}
+
+.price .features-and-cta .plan-features li .p-feature {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.price .features-and-cta .plan-features li img {
+  width: 1.4rem;
+  height: 1.1rem;
+  margin-right: 2.4rem;
+}
+
+.price .features-and-cta .plan-features li p {
+  color: @san-juan-blue;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  opacity: 0.5;
+  margin-left: 3.6rem;
+}
+
+.price .features-and-cta .plan-features li .active {
+  color: @san-juan-blue;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  opacity: 1;
+  margin-left: 0;
+}
+
+.price .features-and-cta .request-access {
+  .btn-submit();
+  width: 16.8rem !important;
+  height: 100% !important;
+  align-self: end;
+}
+
+.content .m-wide {
+  margin-bottom: 9.6rem;
+}
