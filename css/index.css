@@ -873,7 +873,7 @@ header .header {
   height: 82.4rem;
 }
 #__payapi-contact .contact-content h1 {
-  font-size: 4.8rem;
+  font-size: 5.6rem;
   line-height: 5.6rem;
   font-family: "DM Serif Display", serif;
   color: #36536b;
@@ -889,7 +889,7 @@ header .header {
   margin-bottom: 9.6rem;
 }
 .contact-content .join-us .join-form {
-  width: 100%;
+  width: 44.5rem;
   height: 100%;
   display: grid;
   grid-template-rows: 4.2rem 4.2rem 4.2rem 4.2rem 8.9rem 5rem 4.8rem;
@@ -897,7 +897,7 @@ header .header {
   margin-right: 12.4rem;
 }
 .join-us .join-form .form-input {
-  width: 100%;
+  width: 44.5rem;
   height: 4.2rem;
   border: none;
   border-bottom: 1px solid rgba(54, 83, 107, 0.5);
@@ -921,7 +921,7 @@ header .header {
   color: #36536b;
 }
 .join-us .join-form .form-message {
-  width: 100%;
+  width: 44.5;
   height: 8.9rem;
   border: none;
   border-bottom: 1px solid rgba(54, 83, 107, 0.5);
@@ -944,7 +944,7 @@ header .header {
   color: #36536b;
 }
 .join-us .join-form .news {
-  width: 100%;
+  width: 41rem;
   height: 50;
   display: grid;
   grid-template-columns: 2.4rem 1fr;
@@ -1015,7 +1015,7 @@ header .header {
   padding-bottom: 4rem;
 }
 .join-us .innovators .partners {
-  width: 100%;
+  width: 54.1rem;
   height: 13.4rem;
   display: flex;
   flex-wrap: wrap;
