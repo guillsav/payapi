@@ -274,6 +274,7 @@ nav .nav-wrapper .navigation .nav-link:hover {
   width: 100%;
   padding: 0;
   margin: 0;
+  margin-top: 9.6rem;
   background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
   background-repeat: no-repeat;
   background-position: 1050px -150px;
@@ -758,12 +759,9 @@ header .header {
 .price .features-and-cta .request-access:disabled {
   opacity: 0.5;
 }
-.content .m-wide {
-  margin-bottom: 9.6rem;
-}
-#__payapi-about-header {
+#__payapi-about {
   width: 100%;
-  height: 73.7rem;
+  height: 192rem;
   padding-top: 4rem;
   background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
   background-repeat: no-repeat;
@@ -781,4 +779,90 @@ header .header {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
+}
+#__payapi-about .content {
+  width: 100%;
+  height: 183.2rem;
+}
+#__payapi-about .content h1 {
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+  width: 56rem;
+  margin-bottom: 10rem;
+}
+#__payapi-about .content .our-values {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  column-gap: 14rem;
+  margin-bottom: 5.6rem;
+}
+#__payapi-about .content .our-values:last-child {
+  margin-bottom: 0;
+}
+#__payapi-about .content .people {
+  margin-bottom: 9.6rem;
+}
+.content .our-values h2 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+}
+.content .our-values p {
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  font-family: "Public Sans", sans-serif;
+  color: #1b262f;
+  width: 63.5rem;
+  font-weight: 500;
+  color: #6c8294 !important;
+  margin-left: 4.6rem;
+}
+#__payapi-about .content .showcase {
+  width: 100vw;
+  height: 50rem;
+  background: url("/assets/about/desktop/image-team-members.jpg") no-repeat center center / cover;
+  margin-top: 10rem;
+  margin-bottom: 7.2rem;
+}
+#__payapi-about .content .data-facts {
+  width: 100%;
+  height: 13.4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  align-items: center;
+  margin-bottom: 7.2rem;
+}
+.content .data-facts .fact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-top: 1px solid rgba(54, 83, 107, 0.25);
+  border-bottom: 1px solid rgba(54, 83, 107, 0.25);
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+.data-facts .fact h3 {
+  font-size: 1.5rem;
+  font-family: "Public Sans", sans-serif;
+  color: #1b262f;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 500;
+  color: #36536b;
+  opacity: 0.7;
+}
+.data-facts .fact h4 {
+  font-size: 5.6rem;
+  line-height: 5.6rem;
+  font-family: "DM Serif Display", serif;
+  color: #36536b;
+  color: #ba4270;
 }
