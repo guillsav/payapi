@@ -1,0 +1,158 @@
+// Header
+#__payapi-contact {
+  width: 100%;
+  height: 99.9rem;
+  padding-top: 4rem;
+  background-image: url("/assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 800px -527px;
+}
+
+header .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#__payapi-contact .contact-content {
+  width: 100%;
+  height: 82.4rem;
+}
+
+#__payapi-contact .contact-content h1 {
+  .h2();
+  width: 64.6rem;
+}
+
+.contact-content .join-us {
+  width: 100%;
+  height: 49.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7.8rem !important;
+  margin-bottom: 9.6rem;
+}
+
+.contact-content .join-us .join-form {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 4.2rem 4.2rem 4.2rem 4.2rem 8.9rem 5rem 4.8rem;
+  row-gap: 2.4rem;
+  margin-right: 12.4rem;
+}
+
+.join-us .join-form .form-input {
+  width: 100%;
+  height: 4.2rem;
+  border: none;
+  border-bottom: 1px solid rgba(54, 83, 107, 0.5);
+  background: none;
+  .body-copy();
+  color: @san-juan-blue;
+  line-height: 2.5rem;
+  font-weight: 500;
+  padding-left: 2rem;
+  padding-bottom: 1.6rem;
+  outline: none;
+
+  &:focus {
+    border-bottom: 1px solid @san-juan-blue;
+  }
+
+  &::placeholder {
+    opacity: 0.5;
+    color: @san-juan-blue;
+  }
+}
+
+.join-us .join-form .form-message {
+  width: 100%;
+  height: 8.9rem;
+  border: none;
+  border-bottom: 1px solid rgba(54, 83, 107, 0.5);
+  background: none;
+  .body-copy();
+  color: @san-juan-blue;
+  font-weight: 500;
+  padding-left: 2rem;
+  outline: none;
+  resize: none;
+
+  &:focus {
+    border-bottom: 1px solid @san-juan-blue;
+  }
+
+  &::placeholder {
+    opacity: 0.5;
+    color: @san-juan-blue;
+  }
+}
+
+.join-us .join-form .news {
+  width: 100%;
+  height: 50;
+  display: grid;
+  grid-template-columns: 2.4rem 1fr;
+  column-gap: 2.6rem;
+  justify-content: left;
+  align-items: center;
+}
+
+.join-us .join-form .news .newsletter {
+  -webkit-appearance: none;
+  width: 2.4rem;
+  height: 2.4rem;
+  background: @san-juan-blue;
+  border: none;
+  opacity: 0.25;
+  outline: none;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.join-us .join-form .news .newsletter:checked {
+  background-color: @dark-pink;
+  opacity: 1;
+}
+
+.join-us .join-form .news .newsletter:checked:after {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-size: 14px;
+  color: #fff;
+}
+
+.join-us .join-form .news p {
+  .body-copy();
+  width: 36rem;
+  color: @san-juan-blue;
+  font-weight: 500;
+}
+
+.join-us .join-form .form-submit {
+  .btn-submit();
+}
+
+.join-us .innovators {
+  width: 100%;
+  // height: 20.8rem;
+}
+
+.join-us .innovators h4 {
+  .h4();
+  width: 44.5rem;
+  opacity: 0.75;
+  padding-bottom: 4rem;
+}
+
+.join-us .innovators .partners {
+  width: 100%;
+  height: 13.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
