@@ -44,7 +44,7 @@ header .header {
   margin-right: 12.4rem;
 }
 
-.join-us .join-form .form-input {
+.join-us .join-form .form-control .form-input {
   width: 44.5rem;
   height: 4.2rem;
   border: none;
@@ -57,6 +57,8 @@ header .header {
   padding-left: 2rem;
   padding-bottom: 1.6rem;
   outline: none;
+  margin-bottom: 0.8rem;
+  transition: all 0.3s ease-in-out;
 
   &:focus {
     border-bottom: 1px solid @san-juan-blue;
@@ -66,6 +68,41 @@ header .header {
     opacity: 0.5;
     color: @san-juan-blue;
   }
+}
+
+.form-error {
+  width: 44.5rem;
+  height: 4.2rem;
+  border: none;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+  background: none;
+  .body-copy();
+  color: rgba(255, 0, 0, 0.5);
+  line-height: 2.5rem;
+  font-weight: 500;
+  padding-left: 2rem;
+  padding-bottom: 1.6rem;
+  outline: none;
+  margin-bottom: 0.8rem;
+  transition: all 0.3s ease-in-out;
+
+  &:focus {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+  }
+
+  &::placeholder {
+    color: rgba(255, 0, 0, 0.5);
+  }
+}
+
+.join-form .form-control small {
+  // visibility: hidden;
+  font-size: 1.1rem;
+  font-family: @font-stack;
+  color: #ff0000;
+  font-weight: 500;
+  margin-left: 1.5rem;
+  opacity: 0.5;
 }
 
 .join-us .join-form .form-message {

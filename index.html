@@ -14,6 +14,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" async></script>
     <title>PayAPI | Home</title>
   </head>
   <body>
@@ -40,7 +41,7 @@
               <h1 class="billboard-header">
                 Start building with our APIs for absolutely free.
               </h1>
-              <form class="leads" action="">
+              <form class="leads" action="/" method="POST" id="b-leads">
                 <input
                   type="email"
                   class="leads-input"
@@ -168,7 +169,7 @@
         </div>
         <div class="start">
           <h2>Ready to start?</h2>
-          <form class="s-leads">
+          <form class="s-leads" id="leads">
             <input
               type="email"
               class="s-leads-input"

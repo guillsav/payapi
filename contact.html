@@ -15,6 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" async></script>
 
     <title>PayAPI | Contact</title>
   </head>
@@ -49,31 +50,47 @@
         <div class="contact-content">
           <h1>Submit a help request and we’ll get in touch shortly.</h1>
           <div class="join-us">
-            <form class="join-form">
-              <input
-                class="form-input"
-                type="text"
-                name="name"
-                placeholder="Name"
-              />
-              <input
-                class="form-input"
-                type="email"
-                name="email"
-                placeholder="Email Address"
-              />
-              <input
-                class="form-input"
-                type="text"
-                name="company"
-                placeholder="Company Name"
-              />
-              <input
-                class="form-input"
-                type="text"
-                name="title"
-                placeholder="Title"
-              />
+            <form class="join-form" id="contact-form">
+              <div class="form-control">
+                <input
+                  class="form-input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                />
+                <small></small>
+              </div>
+              <div class="form-control">
+                <input
+                  class="form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                />
+                <small></small>
+              </div>
+              <div class="form-control">
+                <input
+                  class="form-input"
+                  type="text"
+                  id="company"
+                  name="company"
+                  placeholder="Company Name"
+                />
+                <small></small>
+              </div>
+              <div class="form-control">
+                <input
+                  class="form-input"
+                  type="text"
+                  id="title"
+                  name="title"
+                  placeholder="Title"
+                />
+                <small></small>
+              </div>
               <textarea
                 class="form-message"
                 name="message"
@@ -122,7 +139,7 @@
           </div>
           <div class="start">
             <h2>Ready to start?</h2>
-            <form class="s-leads">
+            <form class="s-leads" id="leads">
               <input
                 type="email"
                 class="s-leads-input"

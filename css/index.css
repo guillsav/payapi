@@ -896,7 +896,7 @@ header .header {
   row-gap: 2.4rem;
   margin-right: 12.4rem;
 }
-.join-us .join-form .form-input {
+.join-us .join-form .form-control .form-input {
   width: 44.5rem;
   height: 4.2rem;
   border: none;
@@ -912,13 +912,48 @@ header .header {
   padding-left: 2rem;
   padding-bottom: 1.6rem;
   outline: none;
+  margin-bottom: 0.8rem;
+  transition: all 0.3s ease-in-out;
 }
-.join-us .join-form .form-input:focus {
+.join-us .join-form .form-control .form-input:focus {
   border-bottom: 1px solid #36536b;
 }
-.join-us .join-form .form-input::placeholder {
+.join-us .join-form .form-control .form-input::placeholder {
   opacity: 0.5;
   color: #36536b;
+}
+.form-error {
+  width: 44.5rem;
+  height: 4.2rem;
+  border: none;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+  background: none;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  font-family: "Public Sans", sans-serif;
+  color: #1b262f;
+  color: rgba(255, 0, 0, 0.5);
+  line-height: 2.5rem;
+  font-weight: 500;
+  padding-left: 2rem;
+  padding-bottom: 1.6rem;
+  outline: none;
+  margin-bottom: 0.8rem;
+  transition: all 0.3s ease-in-out;
+}
+.form-error:focus {
+  border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+}
+.form-error::placeholder {
+  color: rgba(255, 0, 0, 0.5);
+}
+.join-form .form-control small {
+  font-size: 1.1rem;
+  font-family: "Public Sans", sans-serif;
+  color: #ff0000;
+  font-weight: 500;
+  margin-left: 1.5rem;
+  opacity: 0.5;
 }
 .join-us .join-form .form-message {
   width: 44.5;
